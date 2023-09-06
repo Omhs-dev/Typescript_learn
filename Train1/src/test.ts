@@ -34,3 +34,12 @@ person = {
     name : "Omhs",
     age : 34,
 }
+
+//explicit types
+let handle: string;
+let ages: number;
+let presence: boolean;
+
+handle = "John";
+ages = 34;
+presence = false;
