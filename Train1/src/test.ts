@@ -19,3 +19,18 @@ const mixed = ['Omhs', 4, 'hello'];
 
 mixed.push('hello');
 mixed.push(6);
+
+
+
+let person = {
+    name : "John",
+    age : 32,
+}
+
+person.name = "Omhs";
+person.age = 45;
+
+person = {
+    name : "Omhs",
+    age : 34,
+}
