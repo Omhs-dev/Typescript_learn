@@ -2,7 +2,7 @@ let a: any;
 let u: unknown;
 
 a.splice();
-u.splice();
+// u.splice();
 
 
 //arrays
@@ -43,3 +43,11 @@ let presence: boolean;
 handle = "John";
 ages = 34;
 presence = false;
+
+
+// union types
+let mixe: (string | number | boolean)[] = [];
+mixe.push("test");
+mixe.push(23);
+mixe.push("hello");
+mixe.push(false);
