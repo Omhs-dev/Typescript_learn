@@ -51,3 +51,11 @@ mixe.push("test");
 mixe.push(23);
 mixe.push("hello");
 mixe.push(false);
+
+
+//any type
+let surname: any = "Omhs";
+
+surname = true;
+surname = "hello";
+surname = {agess: 23};
