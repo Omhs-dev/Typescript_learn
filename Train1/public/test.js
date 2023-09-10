@@ -41,12 +41,18 @@
 // surname = "hello";
 // surname = {agess: 23};
 //funtion basics
-let funtionOne;
-funtionOne = () => {
-    console.log("hello One");
+// let funtionOne: Function;
+// funtionOne = () => {
+//     console.log("hello One");
+// }
+// funtionOne();
+// const functionTwo = (a: number, b: number) => {
+//     console.log(a + b);
+// }
+// functionTwo(3, 4);
+//minus operation in typescript
+const minus = (a, b) => {
+    return a - b;
 };
-funtionOne();
-const functionTwo = (a, b) => {
-    console.log(a + b);
-};
-functionTwo(3, 4);
+let result = minus(12, 4);
+console.log(result);
